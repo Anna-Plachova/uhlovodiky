@@ -26,7 +26,8 @@ namespace Uhlovodiky
             if(pocetVodiku != spravnyPocetVodiku)
                 throw new Exception(NapovedaKeVzorci);
 
-            return $"{Zaklady.SlovnikZakladu[pocetUhliku].ZakladNazvu}{Pripona}";
+            var zaklad = Zaklady.SlovnikZakladu.Single(zaklad => zaklad.PocetUhliku.Equals(pocetUhliku));
+            return $"{zaklad.ZakladNazvu}{Pripona}";
         }
 
         public string VzorecZNazvu(string nazev)
@@ -36,7 +37,7 @@ namespace Uhlovodiky
 
             var zakladNazvu = nazev.Substring(0, nazev.Length - Pripona.Length);
 
-            var zaklad = Zaklady.SlovnikZakladu.Values.SingleOrDefault(zaklad => zaklad.ZakladNazvu.Equals(zakladNazvu, StringComparison.OrdinalIgnoreCase));
+            var zaklad = Zaklady.SlovnikZakladu.SingleOrDefault(zaklad => zaklad.ZakladNazvu.Equals(zakladNazvu, StringComparison.OrdinalIgnoreCase));
             if(zaklad == null || zaklad.PocetUhliku == 1)
                 throw new Exception(NapovedaKNazvu);
 
