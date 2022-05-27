@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Uhlovodiky.WinForms/1.0.0": {
+        "dependencies": {
+          "Uhlovodiky": "1.0.0"
+        },
+        "runtime": {
+          "Uhlovodiky.WinForms.dll": {}
+        }
+      },
+      "Uhlovodiky/1.0.0": {
+        "runtime": {
+          "Uhlovodiky.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Uhlovodiky.WinForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Uhlovodiky/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

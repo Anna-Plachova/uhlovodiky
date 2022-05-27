@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "ignored": "true",
+      "type": "appInsights"
+    },
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/uhlovodiky",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "dynamicId": null
+    }
+  }
+}

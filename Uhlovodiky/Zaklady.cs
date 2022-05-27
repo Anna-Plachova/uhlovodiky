@@ -1,6 +1,6 @@
 ﻿namespace Uhlovodiky
 {
-    internal static class Zaklady
+    public static class Zaklady
     {
         public static Dictionary<int, Zaklad> SlovnikZakladu = new()
         {

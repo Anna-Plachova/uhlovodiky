@@ -1,0 +1,12 @@
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\bin\Debug\net6.0\Uhlovodiky.deps.json
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\bin\Debug\net6.0\Uhlovodiky.dll
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\bin\Debug\net6.0\Uhlovodiky.pdb
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.csproj.AssemblyReference.cache
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.AssemblyInfoInputs.cache
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.AssemblyInfo.cs
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.csproj.CoreCompileInputs.cache
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.dll
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\refint\Uhlovodiky.dll
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\Uhlovodiky.pdb
+C:\PROJECTS\Uhlovodiky\Uhlovodiky\obj\Debug\net6.0\ref\Uhlovodiky.dll

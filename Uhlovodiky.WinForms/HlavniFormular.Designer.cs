@@ -1,4 +1,4 @@
-﻿namespace Uhlovodiky
+﻿namespace Uhlovodiky.WinForms
 {
     partial class HlavniFormular
     {

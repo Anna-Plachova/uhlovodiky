@@ -2,7 +2,7 @@
 
 namespace Uhlovodiky
 {
-    internal interface IUhlovodik
+    public interface IUhlovodik
     {
         public string Pripona { get; }
         public string NapovedaKNazvu { get; }

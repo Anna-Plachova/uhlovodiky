@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "http": {
+      "routePrefix": ""
+    }
+  },
+  "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Information",
+      "Uhlovodiky": "Information"
+    },
+    "applicationInsights": {
+      "logLevel": {
+        "default": "Information",
+        "Uhlovodiky": "Information"
+      },
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  }
+}

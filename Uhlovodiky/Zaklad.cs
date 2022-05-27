@@ -1,6 +1,6 @@
 ﻿namespace Uhlovodiky
 {
-    internal class Zaklad
+    public class Zaklad
     {
         public Zaklad(string zakladNazvu, int pocetUhliku)
         {

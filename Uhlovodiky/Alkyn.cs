@@ -2,10 +2,10 @@
 
 namespace Uhlovodiky
 {
-    internal class Alkyn : IUhlovodik
+    public class Alkyn : IUhlovodik
     {
         public string Pripona { get => "yn"; }
-        public string NapovedaKNazvu { get => "Nejde o název alkynu. Název alkynu je tvořen základem (podle počtu uhlíků) a příponou -yn"; }
+        public string NapovedaKNazvu { get => "Nejde o název alkynu. Název alkynu je tvořen základem (podle počtu uhlíků, počet uhlíků musí být vyšší než 1) a příponou -yn"; }
         public string NapovedaKeVzorci { get => "Nejde o vzorec alkynu. Vzorec alkynu je CxHy (x = počet atomů uhlíku, y = počet atomů vodíku.). Musí platit, že y = 2.x-2 a zároveň x > 1"; }
         public Regex Vzor { get => new Regex("([C|c])(\\d+)([H|h])(\\d+)"); }
 
@@ -37,7 +37,7 @@ namespace Uhlovodiky
             var zakladNazvu = nazev.Substring(0, nazev.Length - Pripona.Length);
 
             var zaklad = Zaklady.SlovnikZakladu.Values.SingleOrDefault(zaklad => zaklad.ZakladNazvu.Equals(zakladNazvu, StringComparison.OrdinalIgnoreCase));
-            if(zaklad == null)
+            if(zaklad == null || zaklad.PocetUhliku == 1)
                 throw new Exception(NapovedaKNazvu);
 
             var vzorec = $"C{zaklad.PocetUhliku}H{zaklad.PocetUhliku * 2 - 2}";

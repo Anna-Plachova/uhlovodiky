@@ -2,7 +2,7 @@
 
 namespace Uhlovodiky
 {
-    internal class Alkan : IUhlovodik
+    public class Alkan : IUhlovodik
     {
         public string Pripona { get => "an"; }
         public string NapovedaKNazvu { get => "Nejde o název alkanu. Název alkanu je tvořen základem (podle počtu uhlíků) a příponou -an"; }

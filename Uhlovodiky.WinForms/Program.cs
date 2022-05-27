@@ -1,4 +1,4 @@
-namespace Uhlovodiky
+namespace Uhlovodiky.WinForms
 {
     internal static class Program
     {

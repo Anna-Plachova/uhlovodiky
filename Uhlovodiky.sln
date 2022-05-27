@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uhlovodiky", "Uhlovodiky\Uhlovodiky.csproj", "{4146C845-1103-46BB-B407-9B1944F99CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uhlovodiky", "Uhlovodiky\Uhlovodiky.csproj", "{4146C845-1103-46BB-B407-9B1944F99CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uhlovodiky.Functions", "Uhlovodiky.Functions\Uhlovodiky.Functions.csproj", "{01B70A97-C723-42F4-B043-9FE47DD635C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uhlovodiky.WinForms", "Uhlovodiky.WinForms\Uhlovodiky.WinForms.csproj", "{BC2B1880-CBCA-4B30-9124-8896B58A6E06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4146C845-1103-46BB-B407-9B1944F99CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4146C845-1103-46BB-B407-9B1944F99CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4146C845-1103-46BB-B407-9B1944F99CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B70A97-C723-42F4-B043-9FE47DD635C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B70A97-C723-42F4-B043-9FE47DD635C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B70A97-C723-42F4-B043-9FE47DD635C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B70A97-C723-42F4-B043-9FE47DD635C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2B1880-CBCA-4B30-9124-8896B58A6E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2B1880-CBCA-4B30-9124-8896B58A6E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2B1880-CBCA-4B30-9124-8896B58A6E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2B1880-CBCA-4B30-9124-8896B58A6E06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
