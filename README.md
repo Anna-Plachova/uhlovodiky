@@ -8,7 +8,7 @@ Cílem bylo převést část aplikace, kterou jsem dříve připravila v jazyce 
 
 ## Návrh řešení
 S taťkou jsme se dohodli, že vhodným prostředím pro takovou aplikaci bude Azure Functions, což je cloudová výpočetní platformy společnosti Microsoft. Tak budeme mít k dispozici velmi jednoduché rozhraní pro zadávání vstupu uživatele přímo v internetové adrese.
-Pro obě možnosti aplikac (převod vzorce na název, převod názvu na vzorec) vytvoříme samostatnou funkci. Logiku zpracování umístíme do samostatné knihovny, aby bylo možné ji případně použít i v jiném projektu (např. aplikace pro mobilní telefon nebo počítač s Windows). Tím nám vzniknou dva projekty - knihovna a projekt s funkcemi pro Azure Functions.
+Pro obě možnosti aplikací (převod vzorce na název, převod názvu na vzorec) vytvoříme samostatnou knihovnu, aby bylo možné ji případně použít i v jiném projektu (např. aplikace pro mobilní telefon nebo počítač s Windows - táta si nakonec nedal říct a vyrobil ještě ukázkový projekt programu pro počítače s Windows - je v projektu "Uhlovodiky.WinForms"). Tím nám vzniknou dva projekty - knihovna "Uhlovodiky" a projekt "Uhlovodiky.Functions" s funkcemi pro Azure Functions.
 K programování jsme použili Visual Studio 2022 Community Edition a taťkovo předplatné služeb Microsoft Azure.
 
 ### Předání uživatelského vstupu
