@@ -21,9 +21,12 @@ Parametr {druh} může v obou případech nabývat pouze jedné z hodnot "alkan"
 Podle druhu uhlovodíku bude vybrána správná třída pro výpočet. Všechny tři výpočetní třídy (Alkan, Alken, Alkyn) budou implementovat rozhraní IUhlovodik se dvěma metodami:
 - VzorecZNazvu
 - NazevZeVzorce
+
 Tyto metody budou zodpovědné za zpracování vstupu a přípravu odpovědi jednoduchým voláním jedné z těchto metod z odpovídající funkce podle zadaného typu uhlovodíku. Funkce si prostě vyrobí objekt správné třídy a tento objekt provede výpočet. 
 Složité je poznat ze vzorce, o který uhlovodík se jedná, protože k tomu potřebujeme rozložit vzorec na části, které nám řeknou, kolik uhlíků a kolik vodíků ve vzorci je. Taťka mi pomohl vyrobil regulární výraz (to se těžko vysvětluje, co to je) a přes ten se k počtu uhlíků a vodíků dostaneme. Dokonce i poznáme, jestli vzorec odpovídá tomu, jak by měl obecně vypadat (CxHy).
 Pro práci se základy názvů uhlovodíků jsme připravili jednoduchou paměťovou strukturu, ve které se dá hledat podle počtu uhlíků, ale i podle základu názvu (např. "eth" nebo "prop"). V našem seznamu základů máme 10 základních uhlovodíků, ale šlo by ho rozšířit i na další složitější uhlovodíky s více než 10 uhlíky. Když tvoříme vzorec, hledáme v seznamu základů podle základu názvu. Když tvořím název, hledám v seznamu základů podle počtu uhlíků. K hledání v seznamu používáme LINQ, to je dotazovací jazyk pro práci různými daty nebo strukturami.
+
+Táta nakonec pro znalce přidal OpenAPI/Swagger dokumentaci, která je k nahlédnutí na adrese http://uhlovodiky.azurewebsites.net/swagger/ui. V tomto rozhraní lze také otestovat volání obou našich funkcí.
 
 ## Výsledek naší práce
 Výsledek naší práce lze vyzkoušet na adrese http://uhlovodiky.azurewebsites.net.
